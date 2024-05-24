@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/img_4">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="745dp"
+        android:padding="5sp"
+        android:scrollbarSize="10sp"
+        tools:context=".java_keys">
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:stretchColumns="1">
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Operation" />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Shortcut Keys." />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="finding any resource (file)." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+Shift+R" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="quick fix." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+1" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="organize imports." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+Shift+o" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="to show a classin  package explorer." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Alt+Shift+W" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="for find, find/replace." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+F" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="to delete a line." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text=" Ctrl+D" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="for going to last edited place." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+Q" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="for closing all files." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+Shirt+W" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Java search in workspace." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+H" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Finds class even form JAR files." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+Shift+T" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Run Java applet." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Alt+Shift+X,A" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Run Java application." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Alt + Shift + X, J" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Run JUnit Plugin Test." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Alt + Shift + X, P" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Debug Java applet." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Alt+Shift+D,A" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Debug." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="F11" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Debug Java Application." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Alt+Shift+D,J" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Debug JUnit plugin test." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Alt+Shift+D,P" />
+
+
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Debug JUnit test." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Alt+Shift+D,T" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Remove all visible results." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Shift+Delete" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Remove occurrence annotations." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Alt+Shift+U" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Rename a file, project, class, folder, etc." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="F2" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Deactivate Task." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+Shift+F9" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Activate Task." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+F9" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Undo." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+Z" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:padding="5dp"
+                    android:text="Save all." />
+
+                <TextView
+                    android:gravity="right"
+                    android:padding="5dp"
+                    android:text="Ctrl+Shift+S" />
+            </TableRow>
+
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
+
+
+
+
+

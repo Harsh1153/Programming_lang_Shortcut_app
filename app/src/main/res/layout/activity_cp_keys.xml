@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/img_5">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:scrollbarSize="10sp"
+    tools:context=".cp_keys">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:text="Operation"
+            android:padding="5dp" />
+        <TextView
+            android:text="Shortcut Keys(Hot Keys)"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Open file."
+            android:padding="5dp" />
+        <TextView
+            android:text="Alt+F"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Close."
+            android:padding="5dp" />
+        <TextView
+            android:text="Alt+F3"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="New file."
+            android:padding="5dp" />
+        <TextView
+            android:text="Alt+F+N"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Exit turbo c."
+            android:padding="5dp" />
+        <TextView
+            android:text="Alt+X"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Output Screen."
+            android:padding="5dp" />
+        <TextView
+            android:text="Alt+F5"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Check programme load or not."
+            android:padding="5dp" />
+        <TextView
+            android:text="Alt+F+L"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Full screen."
+            android:padding="5dp" />
+        <TextView
+            android:text="Alt+ENTER"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Cut."
+            android:padding="5dp" />
+        <TextView
+            android:text="Shift+Del"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Paste."
+            android:padding="5dp" />
+        <TextView
+            android:text="Shift+Insert"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Copy."
+            android:padding="5dp" />
+        <TextView
+            android:text="Ctr+Insert"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Compile a program."
+            android:padding="5dp" />
+        <TextView
+            android:text="Alt+F9"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Bbreak point."
+            android:padding="5dp" />
+        <TextView
+            android:text="Ctr+F8"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="To run a program."
+            android:padding="5dp" />
+        <TextView
+            android:text="Ctrl+F9"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="To save a program."
+            android:padding="5dp" />
+        <TextView
+            android:text="Ctrl+s"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Undo."
+            android:padding="5dp" />
+        <TextView
+            android:text="Alt+BkSp"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Save file."
+            android:padding="5dp" />
+        <TextView
+            android:text="F2"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Next Error."
+            android:padding="5dp" />
+        <TextView
+            android:text="Alt+F8"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Previous Error."
+            android:padding="5dp" />
+        <TextView
+            android:text="Alt+F7"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Redo."
+            android:padding="5dp" />
+        <TextView
+            android:text="Shift+Alt+BkSp"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Clear."
+            android:padding="5dp" />
+        <TextView
+            android:text="Ctr+Del"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Delete Line."
+            android:padding="5dp" />
+        <TextView
+            android:text="Ctr+Y"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Program reset."
+            android:padding="5dp" />
+        <TextView
+            android:text="Ctr+F2"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Help."
+            android:padding="5dp" />
+        <TextView
+            android:text="F1"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Save file."
+            android:padding="5dp" />
+        <TextView
+            android:text="F2"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Open file."
+            android:padding="5dp" />
+        <TextView
+            android:text="F3"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Minimize/Maximize."
+            android:padding="5dp" />
+        <TextView
+            android:text="F5"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Jump From One file to another."
+            android:padding="5dp" />
+        <TextView
+            android:text="F6"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Debug."
+            android:padding="5dp" />
+        <TextView
+            android:text="F7"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="line of text to copy."
+            android:padding="5dp" />
+        <TextView
+            android:text="CTRL+KC"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="PASTE."
+            android:padding="5dp" />
+        <TextView
+            android:text="CTRL+KV"
+            android:gravity="right"
+            android:padding="5dp" />
+    </TableRow>
+</TableLayout>
+</ScrollView>
+</LinearLayout>

@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout01"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/img_2">
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10sp"
+    android:scrollbarSize="10sp"
+    tools:context=".python_keys">
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1">
+    <TableRow>
+        <TextView
+            android:text="Operation."
+            android:padding="10dp" />
+        <TextView
+            android:text="Shortcut Keys."
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+    <TableRow>
+        <TextView
+            android:text="Create work area."
+            android:padding="10dp" />
+        <TextView
+            android:text="Ctrl+T"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Load script."
+            android:padding="10dp" />
+        <TextView
+            android:text="Ctrl+O"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Close script."
+            android:padding="10dp" />
+        <TextView
+            android:text="Ctrl+-"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Save active script."
+            android:padding="10dp" />
+        <TextView
+            android:text="Ctrl+S"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Save new active script."
+            android:padding="10dp" />
+        <TextView
+            android:text="Ctrl+F2"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Execute active script."
+            android:padding="10dp" />
+        <TextView
+            android:text="F5"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Add active script to scene."
+            android:padding="10dp" />
+        <TextView
+            android:text="Ctrl+="
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Display Python Tool Manager."
+            android:padding="10dp" />
+        <TextView
+            android:text="F10"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Trigger Python Editor context help."
+            android:padding="10dp" />
+        <TextView
+            android:text="F1"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Find code."
+            android:padding="10dp" />
+        <TextView
+            android:text="Ctrl+F"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Find subsequent code."
+            android:padding="10dp" />
+        <TextView
+            android:text="F3"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Find and replace code."
+            android:padding="10dp" />
+        <TextView
+            android:text="Ctrl+H"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Go to line."
+            android:padding="10dp" />
+        <TextView
+            android:text="Ctrl+G"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Go to next command."
+            android:padding="10dp" />
+        <TextView
+            android:text="Alt+N"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Indent text block."
+            android:padding="10dp" />
+        <TextView
+            android:text="Tab"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Comment selected code."
+            android:padding="10dp" />
+        <TextView
+            android:text="Alt+C"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Uncomment selected code."
+            android:padding="10dp" />
+        <TextView
+            android:text="Alt+U"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+    <TableRow>
+        <TextView
+            android:text="Auto-complete entry."
+            android:padding="10dp" />
+        <TextView
+            android:text="Ctrl+Space"
+            android:gravity="right"
+            android:padding="10dp" />
+    </TableRow>
+
+
+</TableLayout>
+</ScrollView>
+</LinearLayout>
